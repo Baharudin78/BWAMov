@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Button" parent="TextAppearance.AppCompat.Button">
+         <item name="android:background">@drawable/bg_rounded_red</item>
+        <item name="android:text">LANJUTKAN</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="Button.grey" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/bg_corner_grey</item>
+        <item name="android:text">LEWATI</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="Button.redend" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/bg_rounded_red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+</resources>

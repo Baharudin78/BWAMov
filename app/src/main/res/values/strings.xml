@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BWAMov</string>
+    <string name="slogan">Nonton adi lebih asik \ndan ngga ribet</string>
+    <string name="onboarding1">Lebih mudah untuk mengetahui \nfilm yang sedah diputar</string>
+    <string name="daftar_transaksi">Daftar Transaksi</string>
+    <string name="saldo_tersedia">Saldo Tersedia</string>
+    <string name="daftar">Daftar</string>
+    <string name="username">username</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="nama">nama</string>
+    <string name="punya_akun">punya akun ?</string>
+    <string name="masuk">Masuk</string>
+    <string name="my_history">My History</string>
+    <string name="lajutkan">lajutkan</string>
+    <string name="lanjutkan">lanjutkan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="when">When</string>
+    <string name="date_amp_time"><![CDATA[Date & Time]]></string>
+    <string name="cinema">Cinema</string>
+    <string name="depok_mall_cinema_3">Depok Mall, Cinema 3</string>
+    <string name="_17_aug_11_am">17 Aug, 11 AM</string>
+    <string name="setting">Setting</string>
+    <string name="keep_it_up_to_date">Keep it up to date</string>
+    <string name="help">Help</string>
+    <string name="change_language">Change Language</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="my_wallet">My Wallet</string>
+</resources>

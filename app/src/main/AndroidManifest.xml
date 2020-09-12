@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baharudin.bwamov">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SuccesTopupAct"></activity>
+        <activity android:name=".TopupAct" />
+        <activity android:name=".WalletActivity" />
+        <activity android:name=".TiketActivity" />
+        <activity android:name=".SucessAct" />
+        <activity android:name=".MyHistoryAct" />
+        <activity android:name=".wallet.MyWalletAct" />
+        <activity android:name=".EditProfileAct" />
+        <activity android:name=".CheckoutAct" />
+        <activity android:name=".KursiAct" />
+        <activity android:name=".DetailsAct" />
+        <activity android:name=".HomeAct" />
+        <activity android:name=".PhotoAct" />
+        <activity android:name=".RegisterAct" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".OnboardingThreeAct" />
+        <activity android:name=".OnboardingTwoAct" />
+        <activity android:name=".OnboardingAct" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

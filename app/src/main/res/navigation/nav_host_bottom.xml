@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_host_bottom"
+    app:startDestination="@id/dashboard">
+
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.baharudin.bwamov.fragment.DashboardFragment"
+        android:label="DashboardFragment" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_ticketFragment"
+            app:destination="@id/ticket" />
+    </fragment>
+    <fragment
+        android:id="@+id/ticket"
+        android:name="com.baharudin.bwamov.fragment.TicketFragment"
+        android:label="TicketFragment" >
+        <action
+            android:id="@+id/action_ticketFragment_to_settingFragment"
+            app:destination="@id/setting" />
+    </fragment>
+    <fragment
+        android:id="@+id/setting"
+        android:name="com.baharudin.bwamov.fragment.SettingFragment"
+        android:label="SettingFragment" />
+</navigation>

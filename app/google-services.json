@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "746438513379",
+    "firebase_url": "https://bwamov-9c41b.firebaseio.com",
+    "project_id": "bwamov-9c41b",
+    "storage_bucket": "bwamov-9c41b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746438513379:android:52c03518d4b2de6840abd6",
+        "android_client_info": {
+          "package_name": "com.baharudin.bwamov"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746438513379-519k5ujs792hr8t7hkuc2tfvq41pvvtb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChcqK-UYXUDijfzyl1-SV8DCZgWolti-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746438513379-519k5ujs792hr8t7hkuc2tfvq41pvvtb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
